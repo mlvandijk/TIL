@@ -2,6 +2,7 @@
 A list of little things I learn every day...
 (Saved here for reference)
 
+
 ## Ports
 How to find out which process is active on a particular port (Mac OS)
 
@@ -14,3 +15,7 @@ docker stop $(docker ps -q -f ancestor=<image>)
 docker rmi <image>
 ```
 To get the info of the docker, use `docker ps`.
+
+## npm
+`npm init -y` to create package.json
+`npm install <package_name> --save-dev` to add package as devDependency to package.json
