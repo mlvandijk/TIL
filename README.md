@@ -18,4 +18,5 @@ To get the info of the docker, use `docker ps`.
 
 ## npm
 `npm init -y` to create package.json
+
 `npm install <package_name> --save-dev` to add package as devDependency to package.json
