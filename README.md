@@ -4,9 +4,11 @@ A list of little things I learn every day...
 
 
 ## Ports
-How to find out which process is active on a particular port (Mac OS)
+How to find out which process is active on a particular port (Mac OS):
 
 https://stackoverflow.com/questions/4421633/who-is-listening-on-a-given-tcp-port-on-mac-os-x
+
+`lsof -n -i:$PORT | grep LISTEN`
 
 ## Docker
 Restart a docker: 
