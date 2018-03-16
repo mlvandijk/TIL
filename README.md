@@ -18,6 +18,11 @@ docker rmi <image>
 ```
 To get the info of the docker, use `docker ps`.
 
+Rebuild it if you make changes:
+```
+docker-compose up --build
+```
+
 ## npm
 `npm init -y` to create package.json
 
