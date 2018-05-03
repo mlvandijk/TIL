@@ -27,6 +27,8 @@ Rebuild it if you make changes:
 docker-compose up --build
 ```
 
+Don't try to load external links on CI server; use Docker [extra_hosts](https://docs.docker.com/compose/compose-file/#extra_hosts)
+
 ## npm
 `npm init -y` to create package.json
 
@@ -55,3 +57,6 @@ cd <dir>
 * TEST YOUR SCRIPT!
 
 * Add to git and commit. Now everyone can use it!
+
+## Selenium
+If sendKeys() doesn't work anymore, try using a different ChromeDriver.
