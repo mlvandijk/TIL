@@ -50,7 +50,7 @@ cd <dir>
 ```
 * Go to the location on your file system where your file is located.
 
-* Run the command `chmod 755` to change the rights to the file.
+* Run the command `chmod 755 <filename>` to change the rights to the file.
 
 * Check if it worked with `ls -F` -> you should see an `*` after your filename. Or, if you check with `ls -l` your file should have the following rights: `-rwxr-xr-x`
 
