@@ -1,5 +1,5 @@
 # Today I learned (TIL)
-A list of little things I learn every day...
+A list of handy things I learn...
 (Saved here for reference)
 
 
