@@ -63,12 +63,23 @@ To use (Jenkins) variables in the name:
 docker-compose -p <project-name>${BUILD_ID} // TODO: Check exact name of environment variable, could also be ${JENKINS_BUILD_ID}, or something like ${JOBNAME}${BUILD_ID}
 ```
 
-?? What does this do?
+Generate a unique ID (Note: Not tested)
 ```
 docker-compose -p $(uuidgen) up -d --build
 ```
+`uuidgen` is a command (at least on OS X) that generates a UUID (universally unique ID), thus providing a unique name/
 
-Don't try to load external links on CI server; use Docker [extra_hosts](https://docs.docker.com/compose/compose-file/#extra_hosts)
+$(uuidgen) is shell-talk for: run `uuidgen` and use the output
+
+So `docker-compose -p $(uuidgen) up -d --build` means something like:
+
+UUID=(output of) uuidgen
+docker-compose -p $UUID up -d --build
+
+This guarantess a unique project-name for your docker-compose.
+
+
+**Note:** Don't try to load external links on CI server; use Docker [extra_hosts](https://docs.docker.com/compose/compose-file/#extra_hosts)
 
 ## npm
 `npm init -y` to create package.json
