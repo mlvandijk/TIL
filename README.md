@@ -1,7 +1,5 @@
 # Today I learned (TIL)
-A list of handy things I learn...
 (Saved here for reference)
-
 
 ## Ports
 How to find out which process is active on a particular port (Mac OS):
@@ -22,6 +20,11 @@ docker rmi <image>
 ```
 To get the info of the docker, use `docker ps`.
 
+To see which dockers are running:
+```
+docker-compose ps
+```
+
 Rebuild it if you make changes:
 ```
 docker-compose up --build
@@ -31,7 +34,10 @@ Get logging:
 ```
 docker-compose logs -f <docker-name>
 ```
-
+or:
+```
+docker logs {containerid}
+```
 Add a wait:
 ```
 docker-compose up -d --build && sleep 2
