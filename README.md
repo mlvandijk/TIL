@@ -27,6 +27,41 @@ Rebuild it if you make changes:
 docker-compose up --build
 ```
 
+Get logging:
+```
+docker-compose logs -f <docker-name>
+```
+
+Add a wait:
+```
+docker-compose up -d --build && sleep 2
+```
+
+Get a port number:
+```
+docker-compose port <docker-name> <internal-port-number>
+```
+
+How a Docker name is set:
+1. `docker run...` generates a random name, like `curious_pete`
+2. `docker run --name=HELLO` uses the specified name `HELLO`
+3. `docker-compose` generates the name `<docker-compose.yml parent directory>_<service-name-in-docker-compose.ym>_<1-based-index-of-number-of-copies-of-service-you-are-running>`
+
+To override the name:
+```
+docker-compose -p <project-name>
+```
+
+To use (Jenkins) variables in the name:
+```
+docker-compose -p <project-name>${BUILD_ID} // TODO: Check exact name of environment variable, could also be ${JENKINS_BUILD_ID}, or something like ${JOBNAME}${BUILD_ID}
+```
+
+?? What does this do?
+```
+docker-compose -p $(uuidgen) up -d --build
+```
+
 Don't try to load external links on CI server; use Docker [extra_hosts](https://docs.docker.com/compose/compose-file/#extra_hosts)
 
 ## npm
