@@ -116,3 +116,7 @@ If sendKeys() doesn't work anymore, try using a different ChromeDriver.
 ## Java
 Set $JAVA_HOME on Mac: 
 https://www.mkyong.com/java/how-to-set-java_home-environment-variable-on-mac-os-x/
+
+## bash profile
+Show content: `cat .bash_profile`
+Edit (with vi): `vi ~/.bash_profile`
