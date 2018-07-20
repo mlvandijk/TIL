@@ -120,3 +120,7 @@ https://www.mkyong.com/java/how-to-set-java_home-environment-variable-on-mac-os-
 ## bash profile
 Show content: `cat .bash_profile`
 Edit (with vi): `vi ~/.bash_profile`
+
+## crontab examples
+
+https://crontab.guru/examples.html
