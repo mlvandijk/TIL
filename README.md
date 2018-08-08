@@ -22,7 +22,7 @@ To get the info of the docker, use `docker ps`.
 
 To see which dockers are running:
 ```
-docker-compose ps
+docker ps
 ```
 
 Rebuild it if you make changes:
