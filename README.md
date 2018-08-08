@@ -48,6 +48,11 @@ Get a port number:
 docker-compose port <docker-name> <internal-port-number>
 ```
 
+Stop all running containers
+```
+docker kill $(docker ps -q)
+```
+
 How a Docker name is set:
 1. `docker run...` generates a random name, like `curious_pete`
 2. `docker run --name=HELLO` uses the specified name `HELLO`
