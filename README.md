@@ -94,12 +94,17 @@ This guarantess a unique project-name for your docker-compose.
 ## yarn
 
 Uninstall:
+
 `npm uninstall yarn`
+
 `npm uninstall -g yarn`
+
 `brew uninstall yarn`
+
 `brew uninstall --force yarn`
 
 Install a particular version globally:
+
 `npm install -g yarn@<version>` e.g. `npm install -g yarn@1.6.0`
 
 ## shell
