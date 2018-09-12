@@ -91,6 +91,17 @@ This guarantess a unique project-name for your docker-compose.
 
 `npm install <package_name> --save-dev` to add package as devDependency to package.json
 
+## yarn
+
+Uninstall:
+`npm uninstall yarn`
+`npm uninstall -g yarn`
+`brew uninstall yarn`
+`brew uninstall --force yarn`
+
+Install a particular version globally:
+`npm install -g yarn@<version>` e.g. `npm install -g yarn@1.6.0`
+
 ## shell
 * Create a script in the root of your project to do several command line steps:
 ```
