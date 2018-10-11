@@ -1,6 +1,13 @@
 # Today I learned (TIL)
 (Saved here for reference)
 
+## Java
+Set $JAVA_HOME on Mac: 
+https://www.mkyong.com/java/how-to-set-java_home-environment-variable-on-mac-os-x/
+
+## Maven / IntelliJ
+When imports are red despite having the external libs: https://stackoverflow.com/questions/11454822/import-maven-dependencies-in-intellij-idea
+
 ## Ports
 How to find out which process is active on a particular port (Mac OS):
 
@@ -133,10 +140,6 @@ cd <dir>
 
 ## Selenium
 If sendKeys() doesn't work anymore, try using a different ChromeDriver.
-
-## Java
-Set $JAVA_HOME on Mac: 
-https://www.mkyong.com/java/how-to-set-java_home-environment-variable-on-mac-os-x/
 
 ## bash profile
 Show content: `cat .bash_profile`
