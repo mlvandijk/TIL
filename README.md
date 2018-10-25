@@ -2,6 +2,11 @@
 (Saved here for reference)
 
 ## Java
+Find where Java is installed on Mac: 
+* `/usr/libexec/java_home -v` (finds the latest version), or
+* `echo $(/usr/libexec/java_home)`
+(source: https://stackoverflow.com/questions/15826202/where-is-java-installed-on-mac-os-x)
+
 Set $JAVA_HOME on Mac: 
 https://www.mkyong.com/java/how-to-set-java_home-environment-variable-on-mac-os-x/
 
