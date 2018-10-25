@@ -149,6 +149,11 @@ If sendKeys() doesn't work anymore, try using a different ChromeDriver.
 ## bash profile
 Show content: `cat .bash_profile`
 Edit (with vi): `vi ~/.bash_profile`
+Activate edits: `source ~/.bash_profile`
+
+## Command line
+`cp *` - copy all from current directory
+`ls -l` - list, with details
 
 ## crontab examples
 
