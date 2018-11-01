@@ -40,6 +40,11 @@ To see which dockers are running:
 docker ps
 ```
 
+To see all dockers that are stopped:
+```
+docker ps -a
+```
+
 Rebuild it if you make changes:
 ```
 docker-compose up --build
@@ -66,6 +71,11 @@ docker-compose port <docker-name> <internal-port-number>
 Stop all running containers
 ```
 docker kill $(docker ps -q)
+```
+
+Remove all containers
+```
+docker rm -f $(docker ps -a -q)
 ```
 
 How a Docker name is set:
