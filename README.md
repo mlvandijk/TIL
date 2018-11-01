@@ -13,8 +13,12 @@ https://www.mkyong.com/java/how-to-set-java_home-environment-variable-on-mac-os-
 ## Maven / IntelliJ
 When imports are red despite having the external libs: https://stackoverflow.com/questions/11454822/import-maven-dependencies-in-intellij-idea
 
+## Maven
+
 `mvn dependency:tree`
 [`help:effective-pom`](https://maven.apache.org/plugins/maven-help-plugin/effective-pom-mojo.html)
+
+`mvn versions:set -DnewVersion=x.y.z -DgenerateBackupPoms=false` to up version in all poms.
 
 ## Ports
 How to find out which process is active on a particular port (Mac OS):
