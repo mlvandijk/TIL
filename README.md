@@ -1,5 +1,5 @@
 # Today I learned (TIL)
-(Saved here for reference)
+(A list of handy things, saved here for reference)
 
 ## Java
 Find where Java is installed on Mac: 
