@@ -16,9 +16,12 @@ When imports are red despite having the external libs: https://stackoverflow.com
 ## Maven
 
 `mvn dependency:tree`
+
 [`help:effective-pom`](https://maven.apache.org/plugins/maven-help-plugin/effective-pom-mojo.html)
 
 `mvn versions:set -DnewVersion=x.y.z -DgenerateBackupPoms=false` to up version in all poms.
+
+`mvn clean install -U` force updates from artifactory.
 
 ## Ports
 How to find out which process is active on a particular port (Mac OS):
