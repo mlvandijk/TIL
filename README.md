@@ -17,7 +17,11 @@ When imports are red despite having the external libs: https://stackoverflow.com
 
 `mvn dependency:tree`
 
-[`help:effective-pom`](https://maven.apache.org/plugins/maven-help-plugin/effective-pom-mojo.html)
+Look for specific dependency: `mvn dependency:tree |grep <dependency>`
+
+[`mvn help:effective-pom`](https://maven.apache.org/plugins/maven-help-plugin/effective-pom-mojo.html)
+
+Write into a logfile: `mvn help:effective-pom --log-file log.txt`
 
 `mvn versions:set -DnewVersion=x.y.z -DgenerateBackupPoms=false` to up version in all poms.
 
