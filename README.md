@@ -121,6 +121,7 @@ docker-compose -p $UUID up -d --build
 
 This guarantess a unique project-name for your docker-compose.
 
+`docker build .` will build a docker image based on the Dockerfile in the current directory.
 
 **Note:** Don't try to load external links on CI server; use Docker [extra_hosts](https://docs.docker.com/compose/compose-file/#extra_hosts)
 
