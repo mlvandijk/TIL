@@ -17,9 +17,11 @@ When imports are red despite having the external libs: https://stackoverflow.com
 
 `mvn dependency:tree`
 
-Look for specific dependency: `mvn dependency:tree |grep <dependency>`
-
 See where a specific dependency is coming from: http://maven.apache.org/plugins/maven-dependency-plugin/examples/filtering-the-dependency-tree.html
+
+Short version: `mvn dependency:tree -Dincludes=<groupId>:<artifactId>`
+
+Look for specific dependency: `mvn dependency:tree |grep <dependency>`
 
 [`mvn help:effective-pom`](https://maven.apache.org/plugins/maven-help-plugin/effective-pom-mojo.html)
 
