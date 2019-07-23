@@ -132,6 +132,13 @@ This guarantess a unique project-name for your docker-compose.
 
 **Note:** Don't try to load external links on CI server; use Docker [extra_hosts](https://docs.docker.com/compose/compose-file/#extra_hosts)
 
+## Postgres
+`show statement_timeout;`
+
+`set statement_timeout to '1min';`
+
+`set statement_timeout to 0;`
+
 ## npm
 `npm init -y` to create package.json
 
