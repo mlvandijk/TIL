@@ -139,6 +139,10 @@ This guarantess a unique project-name for your docker-compose.
 
 `set statement_timeout to 0;`
 
+## ElasticSearch
+
+`_cat/` endpoint provides all available endpoints
+
 ## npm
 `npm init -y` to create package.json
 
