@@ -39,6 +39,8 @@ By default, Maven runs your tests in a separate ("forked") process. You can use 
 You can run a particular test only, e.g. `mvn -Dit.test=RunCucumberIT verify`
 Source: [Failsafe - running a single test](https://maven.apache.org/surefire/maven-failsafe-plugin/examples/single-test.html)
 
+[Inclusions and Exclusions of Tests](https://maven.apache.org/surefire/maven-failsafe-plugin/examples/inclusion-exclusion.html)
+
 ## Ports
 How to find out which process is active on a particular port (Mac OS):
 
