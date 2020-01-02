@@ -211,3 +211,5 @@ https://crontab.guru/examples.html
 
 ## Terminal
 `pwd` = print working directory
+
+`ls -all -l` = list directory content, all, long format
