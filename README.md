@@ -208,3 +208,6 @@ Activate edits: `source ~/.bash_profile`
 ## crontab examples
 
 https://crontab.guru/examples.html
+
+## Terminal
+`pwd` = print working directory
