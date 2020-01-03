@@ -31,6 +31,9 @@ Write into a logfile: `mvn help:effective-pom --log-file log.txt`
 
 `mvn clean install -U` force updates from artifactory.
 
+### Maven debugging
+`mvn clean install -DtrimStackTrace=false` - get full stacktrace
+
 ## Failsafe
 By default, Maven runs your tests in a separate ("forked") process. You can use the maven.failsafe.debug property to debug your forked tests remotely, like this: `mvn -Dmaven.failsafe.debug verify`
 
