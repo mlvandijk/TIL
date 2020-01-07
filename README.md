@@ -15,6 +15,8 @@ When imports are red despite having the external libs: https://stackoverflow.com
 
 ## Maven
 
+Run `mvn versions:display-dependency-updates` to check for updates.
+
 `mvn dependency:tree`
 
 See where a specific dependency is coming from: http://maven.apache.org/plugins/maven-dependency-plugin/examples/filtering-the-dependency-tree.html
