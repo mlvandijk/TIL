@@ -15,7 +15,7 @@ When imports are red despite having the external libs: https://stackoverflow.com
 
 ## Maven
 
-Run `mvn versions:display-dependency-updates` to check for updates.
+Run `mvn versions:display-dependency-updates` to check for dependency updates.
 
 `mvn dependency:tree`
 
@@ -32,6 +32,8 @@ Write into a logfile: `mvn help:effective-pom --log-file log.txt`
 `mvn versions:set -DnewVersion=x.y.z -DgenerateBackupPoms=false` to up version in all poms.
 
 `mvn clean install -U` force updates from artifactory.
+
+Run `mvn versions:display-plugin-updates` to check for plugin updates.
 
 ### Maven debugging
 `mvn clean install -DtrimStackTrace=false` - get full stacktrace
