@@ -10,6 +10,9 @@ Find where Java is installed on Mac:
 Set $JAVA_HOME on Mac: 
 https://www.mkyong.com/java/how-to-set-java_home-environment-variable-on-mac-os-x/
 
+## Kotlin
+Using Kotlin with Spring: https://www.baeldung.com/kotlin-allopen-spring (Note: Use `${kotlin.version}` instead of the plugin version).
+
 ## Maven / IntelliJ
 When imports are red despite having the external libs: https://stackoverflow.com/questions/11454822/import-maven-dependencies-in-intellij-idea
 
