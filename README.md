@@ -223,3 +223,7 @@ https://crontab.guru/examples.html
 `pwd` = print working directory
 
 `ls -all -l` = list directory content, all, long format
+
+## RegEx
+
+https://ihateregex.io/
