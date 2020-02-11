@@ -13,6 +13,14 @@ https://www.mkyong.com/java/how-to-set-java_home-environment-variable-on-mac-os-
 ## Kotlin
 Using Kotlin with Spring: https://www.baeldung.com/kotlin-allopen-spring (Note: Use `${kotlin.version}` instead of the plugin version).
 
+## Jackson
+fun createObjectMapper() = ObjectMapper().registerModule(KotlinModule())
+https://stackoverflow.com/questions/59671311/field-name-parts-in-json-causes-deserialization-to-fail
+
+`@JsonIgnoreProperties(ignoreUnknown = true)` to ignore all fields in a class you don't need.
+
+`@JsonProperty("grouped_renditions")` to map which field in the json maps to this field in your class.
+
 ## Maven / IntelliJ
 When imports are red despite having the external libs: https://stackoverflow.com/questions/11454822/import-maven-dependencies-in-intellij-idea
 
