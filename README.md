@@ -155,6 +155,14 @@ This guarantess a unique project-name for your docker-compose.
 
 **Note:** Don't try to load external links on CI server; use Docker [extra_hosts](https://docs.docker.com/compose/compose-file/#extra_hosts)
 
+## Kubernetes
+
+https://github.com/dennyzhang/cheatsheet-kubernetes-A4/blob/master/cheatsheet-kubernetes-A4.pdf 
+
+`kubectl help`
+
+`kubectl explain`
+
 ## Postgres
 `show statement_timeout;`
 
