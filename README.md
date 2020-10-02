@@ -174,6 +174,10 @@ https://github.com/dennyzhang/cheatsheet-kubernetes-A4/blob/master/cheatsheet-ku
 
 `_cat/` endpoint provides all available endpoints
 
+## Resilience
+
+https://resilience4j.readme.io/docs/getting-started
+
 ## npm
 `npm init -y` to create package.json
 
