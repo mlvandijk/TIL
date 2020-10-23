@@ -11,7 +11,6 @@ Central European Summer Time (CEST) is UTC +2.
 A [**ZoneId**](https://docs.oracle.com/javase/8/docs/api/java/time/ZoneId.html) is used to identify the rules used to convert between an [Instant](https://docs.oracle.com/javase/8/docs/api/java/time/Instant.html) and a [LocalDateTime](https://docs.oracle.com/javase/8/docs/api/java/time/LocalDateTime.html).
 
 
-LocalDate	toLocalDate() - Gets the LocalDate part of this date-time. (ie strips the timezone info)
 LocalDateTime.atOffset(ZoneOffset offset) - Combines this date-time with an offset to create an OffsetDateTime.
 
 
