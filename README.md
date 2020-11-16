@@ -59,12 +59,14 @@ Source: [Failsafe - running a single test](https://maven.apache.org/surefire/mav
 
 [Inclusions and Exclusions of Tests](https://maven.apache.org/surefire/maven-failsafe-plugin/examples/inclusion-exclusion.html)
 
-## Ports
+## MacOs
 How to find out which process is active on a particular port (Mac OS):
 
 https://stackoverflow.com/questions/4421633/who-is-listening-on-a-given-tcp-port-on-mac-os-x
 
 `lsof -n -i:$PORT | grep LISTEN`
+
+`lsof -n -i:8080` where 8080 is the port number
 
 ## xcode
 
