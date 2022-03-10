@@ -46,6 +46,8 @@ Write into a logfile: `mvn help:effective-pom --log-file log.txt`
 
 Run `mvn versions:display-plugin-updates` to check for plugin updates.
 
+Run `mvn dependency:analyze` to find unused dependencies.
+
 ### Maven debugging
 `mvn clean install -DtrimStackTrace=false` - get full stacktrace
 
