@@ -13,6 +13,10 @@ https://www.mkyong.com/java/how-to-set-java_home-environment-variable-on-mac-os-
 ## Kotlin
 Using Kotlin with Spring: https://www.baeldung.com/kotlin-allopen-spring (Note: Use `${kotlin.version}` instead of the plugin version).
 
+## Git
+
+Rename main: https://www.git-tower.com/learn/git/faq/git-rename-master-to-main
+
 ## Jackson
 fun createObjectMapper() = ObjectMapper().registerModule(KotlinModule())
 https://stackoverflow.com/questions/59671311/field-name-parts-in-json-causes-deserialization-to-fail
