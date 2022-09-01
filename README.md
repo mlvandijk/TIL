@@ -17,6 +17,9 @@ Using Kotlin with Spring: https://www.baeldung.com/kotlin-allopen-spring (Note: 
 
 Rename main: https://www.git-tower.com/learn/git/faq/git-rename-master-to-main
 
+[`core.autocrlf`](https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration) - Configure to deal with line endings across Windows & macOs / Linux
+
+
 ## Jackson
 fun createObjectMapper() = ObjectMapper().registerModule(KotlinModule())
 https://stackoverflow.com/questions/59671311/field-name-parts-in-json-causes-deserialization-to-fail
